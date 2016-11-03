@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A47D6401DCB28AE001225DA /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A47D63D1DCB28AE001225DA /* NSDictionary+Category.m */; };
-		4A47D6411DCB28AE001225DA /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A47D63F1DCB28AE001225DA /* UIView+Category.m */; };
 		4A8F000B1DCAE87900A328C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F000A1DCAE87900A328C0 /* main.m */; };
 		4A8F000E1DCAE87900A328C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F000D1DCAE87900A328C0 /* AppDelegate.m */; };
 		4A8F00111DCAE87900A328C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F00101DCAE87900A328C0 /* ViewController.m */; };
@@ -21,10 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A47D63C1DCB28AE001225DA /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
-		4A47D63D1DCB28AE001225DA /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
-		4A47D63E1DCB28AE001225DA /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
-		4A47D63F1DCB28AE001225DA /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		4A8F00061DCAE87900A328C0 /* AddressPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8F000A1DCAE87900A328C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A8F000C1DCAE87900A328C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,10 +83,6 @@
 		4A8F002F1DCAE9FE00A328C0 /* AddressPicker */ = {
 			isa = PBXGroup;
 			children = (
-				4A47D63C1DCB28AE001225DA /* NSDictionary+Category.h */,
-				4A47D63D1DCB28AE001225DA /* NSDictionary+Category.m */,
-				4A47D63E1DCB28AE001225DA /* UIView+Category.h */,
-				4A47D63F1DCB28AE001225DA /* UIView+Category.m */,
 				4A8F00321DCAE9FE00A328C0 /* list.json */,
 				4A8F00301DCAE9FE00A328C0 /* addressPickerView.h */,
 				4A8F00311DCAE9FE00A328C0 /* addressPickerView.m */,
@@ -183,11 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8F00111DCAE87900A328C0 /* ViewController.m in Sources */,
-				4A47D6411DCB28AE001225DA /* UIView+Category.m in Sources */,
 				4A8F00371DCAE9FE00A328C0 /* addressPickerView.m in Sources */,
 				4A8F000E1DCAE87900A328C0 /* AppDelegate.m in Sources */,
 				4A8F003D1DCAEF2400A328C0 /* AddressInfoModel.m in Sources */,
-				4A47D6401DCB28AE001225DA /* NSDictionary+Category.m in Sources */,
 				4A8F000B1DCAE87900A328C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
